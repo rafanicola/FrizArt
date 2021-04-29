@@ -1,0 +1,267 @@
+
+/*
+Color pallet
+
+#d62633
+#dbc0c0
+
+font-family: 'Spartan', sans-serif;
+*/
+
+@media(min-width: 1400px){
+    body{
+        padding: 0 10%;
+    }
+}
+
+body{
+    font-family: 'Spartan', serif;
+}
+
+/*NavBar*/
+.navbar{
+    padding: 0;
+}
+
+.navbar-logo-text{
+    color: white;
+}
+
+.header-fluid{
+    padding: 0 10%;
+    background-color: #d62633;
+}
+
+
+
+/*Header*/
+.top-image{
+    padding: 0;
+    height: 600px;
+    width: 100%;
+}
+
+.navbar{
+    background-color: #ff8585;
+}
+
+/*Title*/
+.header-title{
+    background-color: #d62633;
+    text-align: center;
+    padding: 3% 0;
+}
+
+
+
+h1{
+    font-family: 'Spartan', cursive;    
+    font-weight: 400;
+    font-size: 5rem;
+    color: white;
+    
+}
+
+.header-p{
+    font-family: 'Spartan', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+}
+
+h4{
+    padding-top: 10px;
+    color: #fff5c0;
+}
+
+
+/*subtítulo*/
+#subtítulo{
+    background-color: #dbc0c0;
+}
+
+.pink-hair-div{
+    padding-left: 5%;
+}
+.pink-hair{
+    
+    border: 10px solid;
+    border-color: #d62633;
+    background-image: url("images/woman-pink-hair.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    
+}
+
+.subtitle-row{
+    padding: 5% 0;
+    
+}
+
+.subtitle-div{
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
+
+.subtitle-text{
+    font-size: 5rem;
+    text-align: left;
+    padding-left: 25%;
+    font-weight: 800;
+}
+
+
+
+/*Serviços*/
+.curly-hair-div{
+    padding-left: 10%;
+}
+
+.curly-hair{
+    border: 10px solid;
+    border-color: #d62633;
+    background-image: url("images/curly-hair.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+
+}
+
+.services-div{
+    padding-top: 3%;
+    text-align: left;
+}
+.services-title{
+    font-size: 3rem;
+}
+ul{
+    padding-top: 3%;
+    padding-left: 0;
+}
+li{
+    list-style-type: none;
+}
+
+
+
+
+ /*Social Media*/
+ #footer{
+    background-color: #d62633;
+    text-align: center;
+    padding: 7% 0;
+    color: white;
+ }
+ .footer-h2{
+     padding-left: 5%;
+     text-align: left;
+ }
+ .address{
+     font-family: 'Spartan', serif;
+     text-align: left;
+     font-size: 1.5rem;
+ }
+
+ a{
+    text-decoration: underline;
+    color: white;
+ }
+
+
+ @media (max-width: 450px) {
+
+    body{
+        text-align: center;
+    }
+
+    .top-image{
+        width: 100%;
+        height: auto;
+    }
+
+    .header-title{
+        padding-top: 10%;
+    }
+
+    h1{
+        font-size: 50px;
+        
+    }
+
+    .subtitle-row{
+        padding-bottom: 5%;
+    }
+
+    .subtitle-text{
+        padding-left: 0%;
+        padding-bottom: 5%;
+        font-size: 2rem;
+        text-align: center;
+
+    }
+
+    .pink-hair-div{
+        
+        align-items: center;
+      
+    }
+    .pink-hair{
+        display: flex;
+        width: 175px;
+        height: 175px;
+        background-size: cover;
+        margin: auto;
+        
+    }
+
+    .curly-hair-div{
+        padding: 3% 0;
+    }
+
+
+    .curly-hair{
+        width: 175px;
+        height: 175px;
+        background-size: cover;
+        margin: auto;
+    }
+
+    .services-title{
+        font-size: 2rem;
+        text-align: center;
+    }
+    li{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    h3{
+        text-align: center;
+    }
+     
+    .footer-h2{
+        padding-left: 0;
+        text-align: center;
+        
+    }
+
+    .contact{
+        text-align: center;
+    }
+    .whatsapp{
+        font-size: 1rem;
+    }
+    .address{
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+ }
